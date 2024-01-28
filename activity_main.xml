@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/Text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="61dp"
+        android:layout_marginEnd="62dp"
+        android:layout_marginBottom="553dp"
+        android:text="Currency Converter"
+        android:textColor="#179F1D"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="92dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="429dp"
+        android:text="Pounds"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/Edit1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Text1" />
+
+    <EditText
+        android:id="@+id/Edit1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="79dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="429dp"
+        android:ems="10"
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/Text2"
+        app:layout_constraintTop_toBottomOf="@+id/Text1"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/B1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="277dp"
+        android:layout_marginBottom="333dp"
+        android:text="Dollar$"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Text2" />
+
+    <Button
+        android:id="@+id/B2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="99dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="69dp"
+        android:layout_marginBottom="332dp"
+        android:text="Rupees"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/B1"
+        app:layout_constraintTop_toBottomOf="@+id/Edit1" />
+
+    <TextView
+        android:id="@+id/Text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="209dp"
+        android:layout_marginEnd="310dp"
+        android:layout_marginBottom="102dp"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/B1" />
+
+    <TextView
+        android:id="@+id/Text4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="113dp"
+        android:layout_marginTop="211dp"
+        android:layout_marginEnd="139dp"
+        android:layout_marginBottom="99dp"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/Text3"
+        app:layout_constraintTop_toBottomOf="@+id/B2" />
+
+    <Button
+        android:id="@+id/B3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="65dp"
+        android:layout_marginEnd="278dp"
+        android:layout_marginBottom="214dp"
+        android:text="Yen"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/B1" />
+
+    <Button
+        android:id="@+id/B4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="117dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="63dp"
+        android:layout_marginBottom="214dp"
+        android:text="Euro"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/B3"
+        app:layout_constraintTop_toBottomOf="@+id/B2" />
+</androidx.constraintlayout.widget.ConstraintLayout>
